@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFE3E3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .container {
+    width: 90%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+ }
+ .header {
+    grid-column: span 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFD1D1;
+    border-radius: 20px;
+ }
+ .header h1 {
+    margin: 0;
+    font-weight: 400;
+ }
+ .header nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+ }
+ .main-title {
+    grid-column: span 2;
+    background-color: #FFD1D1;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .main-title h2 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+ }
+ .main-title h2 span {
+    font-weight: 400;
+    font-style: italic;
+ }
+ .main-title .flower {
+    align-self: flex-end;
+    margin-top: 20px;
+ }
+ .profile-pic {
+    grid-column: span 1;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+ .profile-pic img {
+    width: 100%;
+    height: auto;
+ }
+ .projects {
+    grid-column: span 1;
+    background-color: #FFD1D1;
+    padding: 30px;
+    border-radius: 30px;
+ }
+ .projects h3 {
+    margin-top: 0;
+ }
+ .projects .project-item {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+ }
+ .projects .project-item img {
+    width: 100%;
+    border-radius: 20px;
+ }
+ .projects .project-item a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+ }
+ .about {
+    grid-column: span 2;
+    background-color: #FFD1D1;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .about p {
+    margin: 0;
+ }
+ .contact {
+    grid-column: span 1;
+    background-color: #FF9A9A;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+ }
+ .contact h3 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+ }
+ .contact .arrow {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+ }
+ .footer {
+    grid-column: span 1;
+    background-color: #FFD1D1;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+ }
